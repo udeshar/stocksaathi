@@ -1,0 +1,13 @@
+package com.stocksaathi.sales.exceptions;
+
+public enum ErrorCodes {
+    VALIDATION_FAILED,
+    INTERNAL_SERVER_ERROR,
+    RESOURCE_NOT_FOUND,
+    METHOD_NOT_ALLOWED,
+    RESOURCE_ALREADY_EXIST,
+    BAD_REQUEST,
+    SEAT_NOT_AVAILABLE,
+    SEAT_LOCK_EXPIRED,
+    BOOKING_CONFLICT
+}
